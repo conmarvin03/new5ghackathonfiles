@@ -1,0 +1,291 @@
+
+#username{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+#username > #desc {
+    color:white;
+    text-align: center;
+    font-size: 12px;
+}
+.my-content-left{
+    min-height: 500px;
+}
+.my-content-right{
+    text-align:center;
+    min-height: 500px;
+}
+.my-resume-content{
+    min-height: 500px;
+}
+.resume-pic{
+    width: 192px;
+    height: 192px;
+    border: 1px solid black;
+}
+.entryheader{
+    font-size:25px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+#content-header{
+    text-align: center;
+}
+#resume-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.entsecondary{
+    margin: 0px;
+    font-size:17px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545;
+}
+.entpos{
+    margin: 0px;
+    margin-left: 10px;
+    font-size:17px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.padding-left{
+    padding-right: 0;
+    padding-left: 0;
+}
+.entrytitle{
+    margin-top: 10px;
+    font-size:25px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: darkorange;
+    font-weight: bold;
+
+}
+.entrycaption{
+    margin-left: 40px;
+    font-size:17px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545;
+}
+.entryli{
+    font-size:17px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #00664d;
+}
+.entryul{
+    font-size: 20px;
+    font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #00004d;
+}
+.entryessay{
+    margin-top: 10px;
+    font-size:25px;
+    font-family: Verdana;
+    font-weight: bold;
+
+}
+.entryessaycap{
+    font-size: 15px;
+    font-family: Palatino; color: #00004d;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.entryremarks{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: left;
+}
+.remarks-list{
+    float: left;
+    font-size: 20px;
+}
+.box.box-essay{
+    border-top-color: #ac63cc;
+}
+.abled{
+    background-color: rgb(239,240,241);   
+}
+#element:hover{
+    color: rgb(254,210,75);
+}
+.sidebar-custom{
+    background-color: rgb(236,240,245);
+}
+.button-float-right{
+    float: right;
+}
+.remark-title{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px; 
+}
+.remark-content{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 25px;
+}
+.entryessaypos{
+    margin-left: 5px;
+    text-align: left;
+    font-size: 18px;
+    font-family: Palatino; color: #00004d;
+}
+.entryessaytime{
+    padding-right: 10px;
+    text-align: right;
+    width:50%;
+    display: inline-block;
+    font-size: 17px;
+    font-family: Palatino; color: #00004d;
+}
+@media print {
+    .page-break	{ display: block; page-break-before: always; }
+    @page {
+        size: A4;
+        margin: 1in;
+    }
+    #username{
+        color:white;
+        text-align: center;
+        font-size: 25px;
+    }
+    #username > #desc {
+        color:white;
+        text-align: center;
+        font-size: 12px;
+    }
+    .my-content-left{
+        min-height: 500px;
+    }
+    .my-content-right{
+        text-align:center;
+        min-height: 500px;
+    }
+    .my-resume-content{
+        min-height: 500px;
+    }
+    .resume-pic{
+        width: 192px;
+        height: 192px;
+        border: 1px solid black;
+    }
+    .entryheader{
+        font-size:25px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
+        font-weight: bold;
+        margin: 0px;
+    }
+    #content-header{
+        text-align: center;
+    }
+    #resume-header{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .entsecondary{
+        margin: 0px;
+        font-size:17px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545;
+    }
+    .entpos{
+        margin: 0px;
+        margin-left: 10px;
+        font-size:17px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545;
+    }
+    .padding-0{
+        padding-right:0;
+        padding-left:0;
+    }
+    .padding-left{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .entrytitle{
+        margin-top: 10px;
+        font-size:25px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: darkorange;
+        font-weight: bold;
+
+    }
+    .entrycaption{
+        margin-left: 40px;
+        font-size:17px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545;
+    }
+    .entryli{
+        font-size:17px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #00664d;
+    }
+    .entryul{
+        font-size: 20px;
+        font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #00004d;
+    }
+    .entryessay{
+        margin-top: 10px;
+        font-size:25px;
+        font-family: Verdana;
+        font-weight: bold;
+
+    }
+    .entryessaycap{
+        font-size: 15px;
+        font-family: Palatino; color: #00004d;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .entryremarks{
+        margin-top: 10px;
+        font-size: 25px;
+        font-family: Verdana;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .remarks-list{
+        float: left;
+        font-size: 20px;
+    }
+    .box.box-essay{
+        border-top-color: #ac63cc;
+    }
+    .abled{
+        background-color: rgb(239,240,241);   
+    }
+    #element:hover{
+        color: rgb(254,210,75);
+    }
+    .sidebar-custom{
+        background-color: rgb(236,240,245);
+    }
+    .button-float-right{
+        float: right;
+    }
+    .remark-title{
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .remark-content{
+        font-size: 15px;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .entryessaypos{
+        margin-left: 5px;
+        text-align: left;
+        font-size: 18px;
+        font-family: Palatino; color: #00004d;
+    }
+    .entryessaytime{
+        padding-right: 10px;
+        text-align: right;
+        width:50%;
+        display: inline-block;
+        font-size: 17px;
+        font-family: Palatino; color: #00004d;
+    }
+}  
